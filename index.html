@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<style>
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff88;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 46px auto;
+  max-width: 400px;
+  height: 500px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.social-icons {
+  margin-bottom: 50px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+
+button {
+  background-color: #0070f0;
+  color: #fff;
+  border: none;
+  margin: 0 7px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff0000; 
+  transform: scale(1.1); /
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="rizky.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Rizky Ramadhan</h1>
+    <p>SMK Negeri 1 Denpasar</p>
+    <div class="social-icons">
+        <a href="https://wa.me/6281238085758" target="_blank">
+            <img src="wa.jpg" alt="Chat WhatsApp" />
+        </a>
+
+      <a href="https://www.instagram.com/kyy.rizky_?igsh=MTJ2dmhqNWt2ZnI5Mg==" target="_blank">
+            <img src="ig.png" alt="Instagram" />
+        </a>
+
+      <a href="mailto:rizkyramadhan8057@gmail.com" target="_blank">
+            <img src="email.png" alt="Email" />
+        </a>
+    </div>
+    <a href="PROFILE.html">
+        <button>HOME</button>
+      </a>
+
+      <a href="stories.html">
+        <button>STORIES</button>
+      </a>
+
+      <a href="CONTACT.html">
+        <button>CONTACT</button>
+      </a>
+  </div>
+</body>
+</html>
