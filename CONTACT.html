@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            ''
+            color: #333;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .contact-info .contact-method {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-method:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-method img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        /* Efek hover pada gambar: sedikit rotasi saat kursor berada di atas gambar */
+        .contact-method img:hover {
+            transform: rotate(10deg);
+        }
+
+        .contact-method a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Kontak Kami</h1>
+            <p>Jika Anda memiliki pertanyaan atau ingin terhubung, Anda bisa menghubungi kami melalui media sosial di bawah ini:</p>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <!-- WhatsApp -->
+            <div class="contact-method">
+                <a href="https://wa.me/6281238085758" target="_blank">
+                    <img src="wa.jpg" alt="Chat WhatsApp" />
+                </a>
+                <a href="https://wa.me/6281238085758" target="_blank">
+                    <p><b>WhatsApp</b></p>
+                </a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-method">
+                <a href="https://www.instagram.com/kyy.rizky_?igsh=MTJ2dmhqNWt2ZnI5Mg==" target="_blank">
+                    <img src="ig.png" alt="Instagram" />
+                </a>
+                <a href="https://www.instagram.com/kyy.rizky_?igsh=MTJ2dmhqNWt2ZnI5Mg==" target="_blank">
+                    <p><b>Instagram</b></p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2025 RIZKY. Semua Hak Dilindungi.</p>
+        </div>
+    </div>
+
+</body>
+</html>
